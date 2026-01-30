@@ -1,13 +1,7 @@
-<!doctype html>
-<html lang="en" data-beasties-container>
-<head>
-  <meta charset="utf-8">
-  <title>AngularProject</title>
-  <base href="/SettingWebsite/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-<link rel="stylesheet" href="styles-5INURTSO.css"></head>
-<body>
-  <app-root></app-root>
-<script src="main-GYCDRASR.js" type="module"></script></body>
-</html>
+<link rel="stylesheet" href="styles-5INURTSO.css"><script src="main-GYCDRASR.js" type="module"></script><h1>Em có mún lụm anh khum?</h1>
+<div>
+    <button (click)="(showAlert())" [style.color]="setColor ? 'red' : 'green'" class="btn yes">{{answer1}}</button>
+    <button (click)="(showAlert())" [style.color]="setColor ? 'green' : 'red'" class="btn no" (mouseenter)="handleYesAnswer($event)" (mouseleave)="handleYesAnswer($event)">{{answer2}}</button>
+</div>
+
+
